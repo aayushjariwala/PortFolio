@@ -1,0 +1,54 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.hero-img::before{
+   content: "";
+   background: url("https://i.pinimg.com/564x/b5/95/e5/b595e503a0d6bdc50fe89ac05d162e87.jpg");
+   background-size:auto;
+   background-position: center;
+  
+   height: 100%;
+   width: 100%;
+   position: absolute;
+
+   z-index: -2;
+}
+
+
+.hero-img p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-img h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 640px){
+    
+.hero-img h1{
+    font-size: 1rem;
+    text-align: center;
+} 
+.hero-img p{
+    font-size: 1rem;
+    text-align: center;
+}
+}
