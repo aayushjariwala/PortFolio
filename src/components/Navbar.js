@@ -27,7 +27,7 @@ const Navbar = () =>{
         <>
         
         <div className = {color ? "header-bg": "header"} >
-            <Link to="/">
+            <Link to="/Home">
             <h1>THEAAYUSHJARIWALA</h1>
             </Link>
 
