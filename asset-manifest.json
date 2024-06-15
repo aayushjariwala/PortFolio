@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.4ea1ac67.css",
-    "main.js": "/PortFolio/static/js/main.11599246.js",
+    "main.js": "/PortFolio/static/js/main.ae1b7cd0.js",
     "static/js/453.83234151.chunk.js": "/PortFolio/static/js/453.83234151.chunk.js",
     "static/media/smooth-elegant-transparent-blue-cloth-separated-blue.jpg": "/PortFolio/static/media/smooth-elegant-transparent-blue-cloth-separated-blue.9527894fa2a3ec3f2b8d.jpg",
     "static/media/Premium Vector _ Young programmer code for client projects developer writing program code flat vector.jpeg": "/PortFolio/static/media/Premium Vector _ Young programmer code for client projects developer writing program code flat vector.f644f65b288a5662eb0d.jpeg",
     "index.html": "/PortFolio/index.html",
     "main.4ea1ac67.css.map": "/PortFolio/static/css/main.4ea1ac67.css.map",
-    "main.11599246.js.map": "/PortFolio/static/js/main.11599246.js.map",
+    "main.ae1b7cd0.js.map": "/PortFolio/static/js/main.ae1b7cd0.js.map",
     "453.83234151.chunk.js.map": "/PortFolio/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea1ac67.css",
-    "static/js/main.11599246.js"
+    "static/js/main.ae1b7cd0.js"
   ]
 }
