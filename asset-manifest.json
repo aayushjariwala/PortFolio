@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.4ea1ac67.css",
-    "main.js": "/PortFolio/static/js/main.ae1b7cd0.js",
+    "main.css": "/PortFolio/static/css/main.f72ad283.css",
+    "main.js": "/PortFolio/static/js/main.dba957cd.js",
     "static/js/453.83234151.chunk.js": "/PortFolio/static/js/453.83234151.chunk.js",
     "static/media/smooth-elegant-transparent-blue-cloth-separated-blue.jpg": "/PortFolio/static/media/smooth-elegant-transparent-blue-cloth-separated-blue.9527894fa2a3ec3f2b8d.jpg",
+    "static/media/celebrations.png": "/PortFolio/static/media/celebrations.ecf6990ebacb806c4dd6.png",
+    "static/media/Screenshot 2024-07-30 at 1.30.35 PM.png": "/PortFolio/static/media/Screenshot 2024-07-30 at 1.30.35 PM.277a4bee88b80dfcc370.png",
     "static/media/Premium Vector _ Young programmer code for client projects developer writing program code flat vector.jpeg": "/PortFolio/static/media/Premium Vector _ Young programmer code for client projects developer writing program code flat vector.f644f65b288a5662eb0d.jpeg",
     "index.html": "/PortFolio/index.html",
-    "main.4ea1ac67.css.map": "/PortFolio/static/css/main.4ea1ac67.css.map",
-    "main.ae1b7cd0.js.map": "/PortFolio/static/js/main.ae1b7cd0.js.map",
+    "main.f72ad283.css.map": "/PortFolio/static/css/main.f72ad283.css.map",
+    "main.dba957cd.js.map": "/PortFolio/static/js/main.dba957cd.js.map",
     "453.83234151.chunk.js.map": "/PortFolio/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea1ac67.css",
-    "static/js/main.ae1b7cd0.js"
+    "static/css/main.f72ad283.css",
+    "static/js/main.dba957cd.js"
   ]
 }
