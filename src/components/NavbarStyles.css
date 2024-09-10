@@ -55,6 +55,9 @@
         left: -100%;
         z-index: -3;
         transition: 0.3s;
+        background-color: rgba(0, 0, 0, 0.9);
+        
+        
     }
     .nav-menu.active{
         left:0;
@@ -67,6 +70,22 @@
        font-size: 1.5rem;
         
     }
+
+    .header{
+        display:flex;
+        
+        justify-content: space-between;
+        align-items:center;
+        padding: 1rem;
+        position : fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 10;
+    }
+
+    /* .work-container{
+        width: ;
+    } */
 
 .hamburger{
     display:initial;

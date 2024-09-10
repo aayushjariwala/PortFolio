@@ -52,12 +52,130 @@ project-details p{
 
 
 
+.card-btn {
+    background: #5d19c3;
+    border: 0.5px solid white;
+    padding: 10px ;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+    margin: 2.5rem;
+    padding-left: 30px;
+  }
+  
+  .span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+  
+  .card-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .card-btn:hover {
+    color: #fffcfc;
+  }
+  
+  .card-btn:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 5;
+  }
 
-@media screen and (max-width: 740px)
-{
-    .project-container{
-        grid-template-columns:  repeat(1, 1fr);
-        max-width: 90%;
-        margin: auto;
+
+
+@media screen and (max-width: 740px) {
+    .project-card {
+        padding: 1rem;
+        margin: 1rem 0.5rem;
+        width: 100%; /* Make sure the card takes full width */
+        box-sizing: border-box; /* Include padding in width */
     }
+
+    .project-container{
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding-bottom: 3rem;
+    }
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-details p {
+        font-size: 0.9rem;
+    }
+
+    .project-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-btn .btn {
+        padding: 0.8rem 1rem;
+        width: 100%; /* Make buttons take full width on smaller screens */
+        text-align: center;
+    }
+
+
+
+.card-btn {
+    background: #5d19c3;
+    border: 0.5px solid white;
+    padding: 12px ;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+    margin: 1.5rem;
+  }
+  
+  .span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+  
+  .card-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .card-btn:hover {
+    color: #fffcfc;
+  }
+  
+  .cardbtn:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 5;
+  }
+
+
 }
